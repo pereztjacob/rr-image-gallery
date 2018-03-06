@@ -31,6 +31,14 @@ You can use your own URL, or work with these cute bunnies:
 * http://static.boredpanda.com/blog/wp-content/uploads/2015/09/cute-bunnies-25__605.jpg
 * http://static.boredpanda.com/blog/wp-content/uploads/2015/09/cute-bunnies-110__605.jpg
 
+## API
+
+You will need to post `{ name: 'my album' }` (using POSTMAN) to `/api/albums` to get a unique album id.
+
+* `GET` `/api/albums/<your-id>` return `{ name, images: [<image-object>] }`
+* `POST` `/api/images` `{ title, description, url, album: <your-album-id> }` return your new image object with id
+* `DELETE` `/api/images/<image-id-to-delete>`
+
 ## Components
 
 For now, pick on of the three image viewer component(s) styles:
