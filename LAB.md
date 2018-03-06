@@ -56,11 +56,10 @@ For now, pick on of the three image viewer component(s) styles:
 
 Unit test:
 * Reducers
-* Actions
 
 ## Rubric *10pts*
 - reducers and actions **2pts**
-- testing reducers and actions **2pts**
+- testing reducers **2pts**
 - connect Container components **2pts**
 - Presentation components **2pt**
 - Project Organization **1pt**
